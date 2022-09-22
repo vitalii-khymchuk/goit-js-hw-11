@@ -1,0 +1,13 @@
+{{#each this}}
+<li class="search-item">
+    <div class="card-thumb">
+        <a href="{{largeImageURL}}"><img class="card-image" src="{{webformatURL}}" loading="lazy" alt="{{tags}}"></a>
+        <ul class="card-info">
+            <li><span><b>Likes</b></span><br><span>{{likes}}</span></li>
+            <li><span><b>Views</b></span><br><span>{{views}}</span></li>
+            <li><span><b>Comments</b></span><br><span>{{comments}}</span></li>
+            <li><span><b>Downloads</b></span><br><span>{{downloads}}</span></li>
+        </ul>
+    </div>
+</li>
+{{/each}}
